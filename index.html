@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paris Import & Export</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f8f9fa;
+}
+
+header{
+    background:linear-gradient(90deg,#0a3d2c,#145a32);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header img{
+    width:130px;
+    margin-bottom:15px;
+}
+
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.product{
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.product:hover{
+    transform:translateY(-5px);
+}
+
+.product img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+footer{
+    background:#0a3d2c;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+h2{
+    color:#145a32;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="Company Logo">
+    <h1>شركة باريس للاستيراد والتصدير</h1>
+    <p>Paris Import & Export Company</p>
+</header>
+
+<section>
+    <h2>من نحن | About Us</h2>
+    <p>
+        شركة متخصصة في تصدير جميع أنواع الفاكهة والخضروات الطازجة
+        بأعلى معايير الجودة للأسواق العالمية.
+    </p>
+</section>
+
+<section>
+    <h2>منتجاتنا | Our Products</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="guava.jpg">
+            <p>جوافة | Guava</p>
+        </div>
+
+        <div class="product">
+            <img src="potato.jpg">
+            <p>بطاطس | Potato</p>
+        </div>
+
+        <div class="product">
+            <img src="onion.jpg">
+            <p>بصل | Onion</p>
+        </div>
+
+        <div class="product">
+            <img src="strawberry.jpg">
+            <p>فراولة | Strawberry</p>
+        </div>
+
+        <div class="product">
+            <img src="zucchini.jpg">
+            <p>كوسة | Zucchini</p>
+        </div>
+
+        <div class="product">
+            <img src="banana.jpg">
+            <p>موز | Banana</p>
+        </div>
+
+        <div class="product">
+            <img src="pomegranate.jpg">
+            <p>رمان | Pomegranate</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>تواصل معنا | Contact Us</h2>
+    <p>📍 طنطا – منشأة جنزور – مصر</p>
+    <p>📞 +201003820188</p>
+    <p>📱 WhatsApp: +201123456148</p>
+    <p>📞 Paris: +33626551877</p>
+    <p>📧 Fouadaboelaly@gmail.com</p>
+    <p>📧 h.hhatem@yahoo.com</p>
+</section>
+
+<footer>
+    © 2026 Paris Import & Export Company
+</footer>
+
+</body>
+</html>
